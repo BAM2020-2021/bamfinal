@@ -1,1 +1,17 @@
+/*main body styling starts here*/
 
+.main-body {
+    padding-top: 60px;
+}
+  
+  
+/*the styling for the footer of the websites starts here*/
+.footer {
+    width: 100%;
+    background-color: burlywood;
+    height: 150px;
+    position: auto;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+}

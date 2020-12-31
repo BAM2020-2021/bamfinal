@@ -7,6 +7,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Open+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="navbar.css">
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="aboutus.css">
     <title>About Us</title>
 
 </head>
@@ -33,12 +34,44 @@
 </header>
 
 <!--main part of the body starts here-->
-<div class="main-body">
+<!--<div class="main-body about-us">
   <h1>This is the About us page</h1>
+
+  <img src="takis.jpg" alt="">
+
+</div>-->
+
+<div class="javascript-tabs" style="padding-top: 65px;">
+
+  <div class="tab">
+    <button class="tablinks" onclick="menuOptions(event, 'Drinks')" id="defaultOpen">Snacks</button>
+    <button class="tablinks" onclick="menuOptions(event, 'Snacks')">Drinks</button>
+		<button class="tablinks" onclick="menuOptions(event, 'Coffee')">Coffee</button>
+	</div>
+
+	<div id="Snacks" class="tabcontent">
+    <h3>Snacks</h3>
+    <img src="takis.jpg" alt="">
+	</div>
+
+	<div id="Drinks" class="tabcontent">
+		<h3>Drinks</h3>
+    <img src="coke.jpeg" alt="" style="height: 80%;">
+	</div>
+
+	<div id="Coffee" class="tabcontent">
+    <h3>Coffee</h3>
+    <img src="yellowcoffee copy.jpeg" alt="" style="height: 80%;">
+	</div>
+
+
+
 </div>
+<!--The sidebar javscript tabs starts here-->
+
 
 <!--The footer of the website starts here-->
-<div class="footer">
+<!--<div class="footer">
 
   <h1>Footer starts here--</h1>
 
